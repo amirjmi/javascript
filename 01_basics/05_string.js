@@ -17,6 +17,14 @@ const gameName = new String('Almir')
 // console.log(newString);
 // const anotherString = gameName.slice(-4,3)
 
-const newStringOne = "      Almir        "
-console.log(newStringOne);
-console.log(newStringOne.trim);
+// const newStringOne = "      Almir        "
+// console.log(newStringOne);
+// console.log(newStringOne.trim);
+
+
+const url = "https://amir.com/amir%20khan"
+console.log(url.replace('%20','-'));
+console.log(url.includes('khan'));
+
+
+
